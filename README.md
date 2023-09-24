@@ -1,4 +1,4 @@
-# Analisador de Interrupções de Energia Elétrica (ANEEL)
+# Extração e inserção de dados Interrupções de Energia Elétrica (ANEEL)
 
 O Analisador de Interrupções de Energia Elétrica é uma ferramenta que permite extrair dados da API da ANEEL para análise de indicadores de interrupções de energia elétrica. 
 Este projeto foi desenvolvido no ambiente do Google Cloud Platform (GCP) e utiliza as Cloud Functions e o BigQuery para processar e armazenar os dados. Seu "ponto final" é no Power BI, onde serão criadas análises baseadas nos dados extraídos e disponibilizados
