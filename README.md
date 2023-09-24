@@ -22,7 +22,7 @@ Para usar este projeto, você precisará:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/gabrielsafadi/ANEEL_interrupcoes-energia-eletrica.git
+   git clone https://github.com/gabrielsafadi/api_aneel.git
    
 2. Configure o arquivo gcp-credentials.json com as credenciais da Service Account do GCP.
 
