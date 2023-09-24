@@ -2,7 +2,7 @@ import requests
 from API.API import API_ANEEL
 
 def main(request):
-    
+    # requisições
     request_json = request.get_json()
 
     base_url = request_json['base_url']
