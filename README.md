@@ -1,4 +1,4 @@
-# Extração e inserção de dados Interrupções de Energia Elétrica (ANEEL)
+![image](https://github.com/gabrielsafadi/ANEEL_interrupcoes-energia-eletrica/assets/86384045/21379363-ead5-447c-acf4-3aee4c088bab)# Extração e inserção de dados Interrupções de Energia Elétrica (ANEEL)
 
 O Analisador de Interrupções de Energia Elétrica é uma ferramenta que permite extrair dados da API da ANEEL para análise de indicadores de interrupções de energia elétrica. 
 Este projeto foi desenvolvido no ambiente do Google Cloud Platform (GCP) e utiliza as Cloud Functions e o BigQuery para processar e armazenar os dados. Seu "ponto final" é no Power BI, onde serão criadas análises baseadas nos dados extraídos e disponibilizados
@@ -29,6 +29,15 @@ Para usar este projeto, você precisará:
 3. Personalize as informações de resource_id, tabela, projeto, e outras configurações no código, conforme necessário.
 
 4. Execute o código para iniciar a extração e inserção de dados no BigQuery.
+
+5. Exemplo de requisição para a Cloud Function (Para Authorization, utilizar a private_key presente nas credenciais ou gerar Bearer):  {
+     "base_url": "",
+     "resource_id": "",
+     "limit_per_page": 0,
+     "project_id": "",
+     "dataset_id": "",
+     "table_id": ""
+ }
 
 ## Reaproveitamento
 Este código pode ser facilmente adaptado para extrair e analisar outros conjuntos de dados disponíveis no site da ANEEL. Basta modificar o resource_id correspondente e as configurações do BigQuery para atender às suas necessidades.
