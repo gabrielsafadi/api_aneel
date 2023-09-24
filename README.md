@@ -30,8 +30,8 @@ Para usar este projeto, você precisará:
 
 4. Execute o código para iniciar a extração e inserção de dados no BigQuery.
 
-Reaproveitamento
+## Reaproveitamento
 Este código pode ser facilmente adaptado para extrair e analisar outros conjuntos de dados disponíveis no site da ANEEL. Basta modificar o resource_id correspondente e as configurações do BigQuery para atender às suas necessidades.
 
-Contribuição
+## Contribuição
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir issues, enviar solicitações de pull ou propor melhorias. Sua colaboração é bem-vinda!
