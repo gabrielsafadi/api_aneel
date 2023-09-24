@@ -1,5 +1,5 @@
 import requests
-from API import API_ANEEL
+from API.API import API_ANEEL
 
 def main(request):
     

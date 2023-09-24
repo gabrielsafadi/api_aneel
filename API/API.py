@@ -71,7 +71,7 @@ class API_ANEEL:
     
     def load_data(self):
         # Substitua pelo caminho para o seu arquivo de credenciais JSON
-        credentials_path = "gcp-credentials.json"
+        credentials_path = "BigQuery/gcp-credentials.json"
 
         # Configura as credenciais
         client = bigquery.Client.from_service_account_json(credentials_path)
