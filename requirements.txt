@@ -1,2 +1,6 @@
-requests
 pandas
+oauth2client
+google-cloud-bigquery
+pytz
+pandas_gbq
+pandas.io
